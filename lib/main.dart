@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uptodo/features/splash/presentation/views/splash_view.dart';
+import 'package:uptodo/features/onboarding/presentation/views/onboarding_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xff121212),
       ),
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
+      home: OnboardingView(),
     );
   }
 }
